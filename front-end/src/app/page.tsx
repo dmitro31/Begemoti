@@ -1,4 +1,6 @@
 import  BlobBackground  from "@/widgets/Home/Background";
+import Locations from "@/widgets/Location";
+import Photo from "@/widgets/Photo";
 import Popular from "@/widgets/Popular";
 
 export default function Home(){
@@ -7,6 +9,8 @@ export default function Home(){
     <div>
       <BlobBackground/>
       <Popular/>
+      <Photo/>
+      <Locations/>
     </div>
   )
 }
